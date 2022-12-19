@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 
 body{
-    background:  rgb(11, 11, 160);
+    background:  rgb(33, 29, 29);
     color:yellow;
 }
 
@@ -27,9 +27,14 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    position: sticky;
+    top:0;
+    background-color: #262626;
 }
+
+
 
 .logo{
     width: 140px;
@@ -96,6 +101,8 @@ nav ul li a:hover::after{
 #about{
     padding:80px 0;
     color:yellow;
+    width:80%;
+    margin: auto;
 }
 
 .row{
@@ -331,12 +338,95 @@ form .btn2{
     margin-bottom: 30px; 
 }
 
+#github-contributions{
+    width: 80%;
+    margin-left: 100px;
+}
+
 
 /* css for samll screen */
+
+nav .fa-solid{
+ display: none;
+}
 
 @media only screen and (max-width:600px){
 
     #header{
-        background-image: url();
+
     }
+
+    #myphoto{
+        height: 150px;
+        margin:auto;
+        border-radius: 100%;
+        margin-top: 20px;
+    }
+
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size:30px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+       }
+       
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top:0;
+        right: -200px;
+        width:200px;
+        height:100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display:block;
+        margin: 25px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top:25px;
+        left:25px;
+        cursor: pointer;
+
+    }
+
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1,.about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 240px;
+    }
+   
+    #github{
+        flex-basis: 100%;
+        display: none;
+    }
+
+    .contact-left,.contact-right{
+        flex-basis: 100%;
+    }
+}
+
+#msg{
+    color:#61b752;
+    margin-top: -40px;
+    display:block;
 }
