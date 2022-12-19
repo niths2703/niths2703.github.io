@@ -437,8 +437,17 @@ nav .fa-solid{
     }
    
     #github{
+        width:90%;
+        display: flex;
         flex-basis: 100%;
-        display: none;
+        flex-direction: column;
+       
+    }
+
+    .git1{
+        width:90%
+        display: flex;
+        flex-direction: column;
     }
 
     .contact-left,.contact-right{
