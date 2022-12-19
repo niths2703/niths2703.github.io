@@ -177,6 +177,7 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display:block;
     transition: transform 0.5s;
+    z-index: -2;
 }
 /* 
 .layer {
@@ -219,6 +220,7 @@ nav ul li a:hover::after{
 .layer{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     text-align: center;
 }
 .work :hover img{
@@ -254,6 +256,10 @@ nav ul li a:hover::after{
 } */
 
 /* contact */
+#contact{
+    margin-top: 40px;
+    
+}
 .contact-left{
  flex-basis: 35%;
 }
