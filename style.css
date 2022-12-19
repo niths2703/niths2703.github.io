@@ -179,6 +179,11 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
     z-index: -2;
 }
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
 /* 
 .layer {
     width:100%;
