@@ -1,223 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #nav{
-            display:flex;
-            justify-content: space-evenly;
-            margin:auto;
-            border:1px solid black;
-            height: 80px;
-            width:100%;
-            background-color: rgb(7, 7, 69);
-            color:yellow;
-
-        }
-
-        #name{
-            border:1px solid red;
-            margin-left: 140px;
-
-        }
-
-        #menu{
-            width:50%;
-            border:1px solid blue;
-            display:flex;
-            justify-content: space-evenly;
-            margin: auto;
-        }
-
-        #content1{
-            display:flex;
-            justify-content: space-around;
-            border:1px solid red;
-            height:400px;
-            background-color: rgb(7, 7, 69);
-            color:yellow;
-
-        }
-
-        #content1:first-child{
-            padding-top: 150px;
-        }
-
-        .sub-content1{
-           
-    border:1px solid black;
-        }
-
-        #myphoto{
-            height: 300px;
-            border-radius: 100%;
-            margin-top: 50px;
-        }
-
-        .logo{
-            height:200px;
-            width:20%;
-        }
-
-        #content2{
-            border:1px solid blue;
-            height: 400px;
-            background-color: rgb(7, 7, 69);
-            color:yellow;
-            display:flex;
-
-        }
-
-        #devphoto{
-            height:300px;
-        }
-
-        #content3{
-            border:1px solid blue;
-            height: 900px; 
-            background-color: rgb(7, 7, 69);
-            color:yellow;
-
-        }
-
-        #content4{
-            border:1px solid blue;
-            height:1200px;
-            background-color: rgb(7, 7, 69);
-            color:yellow;
-
-        }
-
-        #content5{
-            border:1px solid blue;
-            height:1200px;
-            background-color: rgb(7, 7, 69);
-            color:yellow;
- 
-        }
-
-        #content6{
-            height:500px;
-            background-color: rgb(7, 7, 69);
-            color:white;
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- navbar -->
-  <div id="nav">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="C:\Users\nsriv\OneDrive\Documents\pics\name_logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
 
-    <div id="name">
+            <div id="header-sub">
 
-        <h2>Nitish Kumar Srivastava</h2>
+                <div class="header-text">
+                    <p>Backend Developer</p>
+                    <h1>Hi, I'm <span>Nitish Srivastava</span> </h1>
+
+                </div>
+
+
+                <div id="photo">
+                    <img id="myphoto" src="https://i.ibb.co/ts1fJ2h/nitish-photo.png" alt="Nitish">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- about -->
+
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://img.freepik.com/premium-vector/software-developer-programming-desktop-with-code-symbols_24877-70808.jpg"
+                    alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Nitish. I'm a Java Back-end Developer. Aspiring Java Backend Developer with a proficiency
+                    in Java, Spring Boot, SQL,Git, AWS, HTML, CSS, Javascript, Object-oriented, design And
+                    Self-motivated and curious, with a keen interest in building user-centric products. Looking forward
+                    to honing my skills in a challenging work environment .</p>
+            </div>
+        </div>
+
     </div>
 
-    <div id="menu">
-        <div>Home</div>
-        <div>About Me</div>
-        <div>Skills</div>
-        <div>Project</div>
-        <div>Contact</div>
+
+
+    <!-- skills -->
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+
+                <h1 class="tech">Frontend Technologies</h1>
+                <div id="frontend" class="sub-skills">
+                    <img class="logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="">
+                    <img class="logo" src="https://brandeps.com/logo-download/C/CSS-3-logo-vector-01.svg" alt="">
+                    <img class="logo" src="https://www.clipartmax.com/png/middle/150-1504620_javascript-logo.png"
+                        alt="">
+                    <img class="logo"
+                        src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="">
+
+                </div>
+
+                <h1 class="tech">Backend Technologies</h1>
+                <div id="backend" class="sub-skills">
+                    <img class="logo"
+                        src="https://duet-cdn.vox-cdn.com/thumbor/0x0:640x427/828x552/filters:focal(320x213:321x214):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/13957090/java_logo_640.1419967889.jpg"
+                        alt="">
+                    <img class="logo"
+                        src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-and-moodle-elearningworld-5.png"
+                        alt="">
+                    <img class="logo" src="https://www.dariawan.com/media/images/tutorial-spring-logo.width-400.png"
+                        alt="">
+                    <img class="logo" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="">
+                </div>
+
+            </div>
+        </div>
     </div>
 
-  </div>
+    <!-- github -->
+    <div id="github">
 
-   <!-- navbar ended -->
+        <h1 id="githead1">My Github Contributions</h1>
+        <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;" id="github-contributions"
+            src="https://ghchart.rshah.org/NITHS2703" href="https://github.com/NITHS2703"
+            alt="Niths2703's Github chart">
 
-   <!-- content div 1 starts -->
+        <h1 id="githead2">Github Stats</h1>
+        <div class="git1">
+            <img class="gitimg" src="https://github-readme-streak-stats.herokuapp.com/?user=NITHS2703">
 
-   <div id="content1">
-    <div class="sub-content1">
-          <h1>Hi, I am Nitish Kumar Srivastava</h1>
-          <h2>An Aspiring JAVA Backend Developer</h2>
+
+            <img class="gitimg"
+                src="https://camo.githubusercontent.com/dab60e2d4c946485ff72fe428bf0eeaa62e351db11ca79b20139667da67f490f/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6e69746873323730332673686f775f69636f6e733d74727565266c6f63616c653d656e"
+                alt="niths2703"
+                data-canonical-src="https://github-readme-stats.vercel.app/api?username=niths2703&amp;show_icons=true&amp;locale=en"
+                style="max-width: 100%;">
+        </div>
+
+        <div class="git1"><img class="gitimg"
+                src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NITHS2703&amp;theme=dracula&amp;bg_color=0D1117">
+        </div>
     </div>
 
-    <div class="sub-content1">
-        <img id="myphoto" src="https://i.ibb.co/ts1fJ2h/nitish-photo.png" alt="Nitish">
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+
+
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDEInUHWvjr7O6VnzfskZ3NrABYfxuCq-YQ&usqp=CAU.jpg"
+                        alt="">
+                    <div class="layer">
+                        <h3>Retomojo</h3>
+                        <p>India's leading rental platform brings to you a wide range of products on rent. Experience
+                            the freedom to live the life you want, now.</p>
+                        <a href="https://timely-gumdrop-6783b4.netlify.app"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="C:\Users\nsriv\Downloads\espn.png" alt="">
+                    <div class="layer">
+
+                        <h3>ESPNCricinfo</h3>
+                        <p>Find Live Cricket Scores, Match updates, Fixtures, Results, News, Articles, Video highlights
+                            only at ESPNcricinfo.</p>
+                        <a href="https://deluxe-buttercream-9cdfdb.netlify.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="C:\Users\nsriv\Downloads\Tenders.png" alt="">
+                    <div class="layer">
+
+                        <h3>SigmBid(Tender Management System)</h3>
+                        <p>This e-tendering software is a tool that supports run tenders and requests for proposals
+                            further efficiently than email and phone.</p>
+                        <a href="https://github.com/niths2703/maxed-wilderness-6454"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+
     </div>
 
-   </div>
-<!-- content div 1 end -->
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nsrivastava230@gmail.com</p>
+                    <p><i class="fa-thin fa-phone"></i>+917355671230</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nitishsrivastava27/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/NitishS30698470"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/niths27/"><i class="fa-brands fa-instagram"></i></a>
+
+                    </div>
+                    <a href="C:\Users\nsriv\OneDrive\Desktop\resume\Nitish_Srivastava_Resume.pdf" download
+                        class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
 
 
-<!-- content div2 starts  -->
 
-<div id="content2">
-    <div>
-<h2>My name is Nitish. I'm a Java Back-end Developer. Aspiring Java Backend Developer with a proficiency in Java, Spring Boot, SQL,Git, AWS, HTML, CSS, Javascript, Object-oriented, design And Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment .
-
-    </h2>
-
-    <button>Resume</button>
+        </div>
     </div>
-
-    <div>
-       <img id="devphoto" src="https://img.freepik.com/premium-vector/software-developer-programming-desktop-with-code-symbols_24877-70808.jpg" alt=""> 
-    </div>
-</div>
-
-<div id="content3">
-    <h1>My Skills</h1>
-<h2>Front-End Technologies</h2>
-
-<div>
-    <img class="logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="">
-    <img class="logo" src="https://brandeps.com/logo-download/C/CSS-3-logo-vector-01.svg" alt="">
-    <img class="logo" src="https://www.clipartmax.com/png/middle/150-1504620_javascript-logo.png" alt="">
-    <img class="logo" src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="">
-</div>
-
-<h2>Backend Technologies</h2>
-<div>
-    <img class="logo" src="https://duet-cdn.vox-cdn.com/thumbor/0x0:640x427/828x552/filters:focal(320x213:321x214):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/13957090/java_logo_640.1419967889.jpg" alt="">
-<img class="logo" src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-and-moodle-elearningworld-5.png" alt="">
-<img class="logo" src="https://www.dariawan.com/media/images/tutorial-spring-logo.width-400.png" alt="">
-<img class="logo" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="">
-
-
-</div>
-
-</div>
-
-<div id="content4">
-
-    <h1>My Github Contributions</h1>
-    <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;" id="github-contributions" src="https://ghchart.rshah.org/NITHS2703" href="https://github.com/NITHS2703" alt="Niths2703's Github chart">
-
-    <h1>Github Stats</h1>
-    <img  src="https://github-readme-streak-stats.herokuapp.com/?user=NITHS2703">
-
-   
-    <img align="center" src="https://camo.githubusercontent.com/dab60e2d4c946485ff72fe428bf0eeaa62e351db11ca79b20139667da67f490f/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6e69746873323730332673686f775f69636f6e733d74727565266c6f63616c653d656e" alt="niths2703" data-canonical-src="https://github-readme-stats.vercel.app/api?username=niths2703&amp;show_icons=true&amp;locale=en" style="max-width: 100%;">
-    <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NITHS2703&amp;theme=dracula&amp;bg_color=0D1117">
-</div>
-
-<div id="content5">
-    <h1>My Projects</h1>
-    <img src="" alt="">
-    <img src="" alt="">
-
-</div>
-
-
-<div id="content6">
-    <h1>Contact Me</h1>
-    <img src="https://niths2703.github.io/image/github.png" alt="">
-    <img src="https://niths2703.github.io/image/phone-call.png" alt="">
-    <img src="https://niths2703.github.io/image/twitter-sign.png" alt="">
-
-    <img src="https://niths2703.github.io/image/instagram.png" alt="">
-    <img src="https://niths2703.github.io/image/linkedin.png" alt="">
-    <button>Download CV</button>
-</div>
 
 </body>
-</html>
 
-   
+</html>
