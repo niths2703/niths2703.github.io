@@ -209,7 +209,7 @@ nav ul li a:hover::after{
    text-decoration: none;
    font-size: 18px;
    line-height: 60px;
-   background: white;
+   background:#fff;
    width:60px;
    height:60px;
    border-radius: 50%;
@@ -343,6 +343,10 @@ form .btn2{
     margin-left: 100px;
 }
 
+.jslogo{
+    margin-top: 40px;
+}
+
 
 /* css for samll screen */
 
@@ -423,7 +427,33 @@ nav .fa-solid{
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
+
+    #para{
+        font-size: 12px;
+       
+    }
+
+    #skills{
+        flex-basis: 100%;
+       
+    }
+    .sub-skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-sub{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+
 
 #msg{
     color:#61b752;
