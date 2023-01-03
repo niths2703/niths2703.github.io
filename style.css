@@ -304,6 +304,8 @@ transform: translateY(-5px);
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    border-radius: 7%;
+
 }
 
 .contact-right form{
@@ -361,7 +363,10 @@ form .btn2{
 }
 
 .jslogo{
-    margin-top: 40px;
+    height:120%;
+    width:100%;
+    margin-top:-10px;
+    
 }
 
 
@@ -373,9 +378,8 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px){
 
-    #header{
-
-    }
+    
+    
 
     #myphoto{
         height: 150px;
@@ -439,16 +443,144 @@ nav .fa-solid{
     #github{
         width:90%;
         display: flex;
+        margin-left: 0px;
         flex-basis: 100%;
         flex-direction: column;
+        font-size: 25px;
        
     }
 
+    #githead1{
+        font-size: 25px; 
+        margin-left: 0px;
+    }
+    #githead2{
+        font-size: 25px; 
+        margin-left: 0px;
+    }
+
     .git1{
-        width:90%
+        width:90%;
+        display: flex;
+        flex-direction: column;
+     }
+
+    .contact-left,.contact-right{
+        flex-basis: 100%;
+    }
+
+    #para{
+        font-size: 12px;
+    }
+
+    #skills{
+        flex-basis: 100%;
+       
+    }
+    .sub-skills{
         display: flex;
         flex-direction: column;
     }
+
+    .work-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-sub{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width:300px){
+
+    #myphoto{
+        height: 150px;
+      margin-right: 100px;
+        border-radius: 100%;
+        margin-top: 20px;
+    }
+
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size:30px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+       }
+       
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top:0;
+        right: -200px;
+        width:200px;
+        height:100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display:block;
+        margin: 25px;
+    }
+
+    nav ul .fas{
+        position: absolute;
+        top:25px;
+        left:25px;
+        cursor: pointer;
+
+    }
+
+    .sub-title{
+        font-size: 40px;
+    }
+    .about-col-1,.about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 240px;
+    }
+   
+    #github{
+        
+        width:90%;
+        display: flex;
+        flex-basis: 100%;
+        margin-left: 0px;
+       
+        flex-direction: column;
+        font-size: 25px;
+       
+    }
+
+    #githead1{
+        font-size: 25px; 
+        margin-left: 0px;
+    }
+    #githead2{
+        font-size: 25px; 
+        margin-left: 0px;
+    }
+
+    .git1{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+     }
 
     .contact-left,.contact-right{
         flex-basis: 100%;
@@ -460,8 +592,7 @@ nav .fa-solid{
     }
 
     #skills{
-        flex-basis: 100%;
-       
+        flex-basis: 100%;      
     }
     .sub-skills{
         display: flex;
