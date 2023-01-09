@@ -369,8 +369,36 @@ form .btn2{
     
 }
 
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: space-around;
+    height: 200px;
+    border:0px solid red;
+}
+
+.logo-container:hover{
+    cursor: pointer;
+    height: 120%;
+}
+
+.logo{
+    left:120px;
+   margin: auto;
+}
+
+.work:hover{
+    height: 150%;
+    cursor: pointer;
+}
+
+
 
 /* css for samll screen */
+
+
+
 
 nav .fa-solid{
  display: none;
