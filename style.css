@@ -105,6 +105,10 @@ nav ul li a:hover::after{
     margin: auto;
 }
 
+#para{
+    font-size: 18px;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
