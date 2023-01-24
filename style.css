@@ -164,7 +164,7 @@ nav ul li a:hover::after{
 
 .work-list{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -176,6 +176,22 @@ nav ul li a:hover::after{
    height:200%;
 }
 
+/* .sweet{
+   height:40%;
+} */
+
+/* .icons{
+    height:600px;
+    border:1px solid red;
+} */
+.bigger{
+    font-size: x-large;
+    height:50px;
+    width:50px;
+    border:0px solid red;
+    border-radius: 20%;
+
+}
 .work img{
     width:100%;
     border-radius: 10px;
