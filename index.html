@@ -22,9 +22,8 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Project</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a   href="https://drive.google.com/file/d/1lrvMMO3L6ybp7j70ZSUK1RyeuJkBEcvb/view " target="_blank" download>Resume</a></li>
-            <!--  https://drive.google.com/file/d/1lrvMMO3L6ybp7j70ZSUK1RyeuJkBEcvb/view -->
-            <!-- https://drive.google.com/u/0/uc?id=1lrvMMO3L6ybp7j70ZSUK1RyeuJkBEcvb&export=download -->
+            <li><a   href="https://drive.google.com/u/0/uc?id=1lrvMMO3L6ybp7j70ZSUK1RyeuJkBEcvb&export=download" download onclick="openResume()">Resume</a></li>
+            <!--  -->
         </ul>
         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
@@ -300,6 +299,10 @@
     }
     function closemenu(){
         sidemenu.style.right="-200px";
+    }
+
+    function openResume(){
+        window.open("https://drive.google.com/file/d/1lrvMMO3L6ybp7j70ZSUK1RyeuJkBEcvb/view")
     }
 </script>
 
