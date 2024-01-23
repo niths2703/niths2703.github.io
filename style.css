@@ -446,14 +446,10 @@ nav .fa-solid{
         font-size:30px;
     }
 
-    
-
     nav .fa-solid{
         display: block;
         font-size: 25px;
        }
-
-    
        
     nav ul{
         background: #ff004f;
@@ -638,12 +634,12 @@ nav .fa-solid{
         flex-direction: column;
      }
 
-     .contact-left{
+    .contact-left{
         flex-basis: 100%;
     }
     .contact-right{
         flex-basis: 100%;
-    }
+    
 
     #para{
         font-size: 12px;
@@ -667,11 +663,9 @@ nav .fa-solid{
         display: flex;
         flex-direction: column;
     }
-
-    
 }
 
-
+}
 
 #msg{
     color:#61b752;
