@@ -446,9 +446,6 @@ nav .fa-solid{
         font-size:30px;
     }
 
-    nav{
-        position: relative;
-    }
     .fa-bars{
         position: absolute;
     }
@@ -564,9 +561,7 @@ nav .fa-solid{
         margin-top: 20px;
     }
 
-    nav{
-        position: relative;
-    }
+  
     .fa-bars{
         display: flex;
         flex-direction: row-reverse;
