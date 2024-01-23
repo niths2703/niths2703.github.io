@@ -450,6 +450,11 @@ nav .fa-solid{
         display: block;
         font-size: 25px;
        }
+
+      nav .fa-bars{
+        display: flex;
+        flex-direction: row-reverse;
+       }
        
     nav ul{
         background: #ff004f;
@@ -567,6 +572,11 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 25px;
+       }
+
+      nav .fa-bars{
+        display: flex;
+        flex-direction: row-reverse;
        }
        
     nav ul{
