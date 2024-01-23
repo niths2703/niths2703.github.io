@@ -568,7 +568,8 @@ nav .fa-solid{
         position: relative;
     }
     .fa-bars{
-        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
 
