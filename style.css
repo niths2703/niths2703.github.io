@@ -453,10 +453,7 @@ nav .fa-solid{
         font-size: 25px;
        }
 
-       .fa-bars{
-        display: flex;
-        flex-direction: row-reverse;
-    }
+    
        
     nav ul{
         background: #ff004f;
@@ -561,14 +558,6 @@ nav .fa-solid{
         border-radius: 100%;
         margin-top: 20px;
     }
-
-  
-    .fa-bars{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-
 
     .header-text{
         margin-top: 100%;
