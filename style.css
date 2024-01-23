@@ -446,16 +446,17 @@ nav .fa-solid{
         font-size:30px;
     }
 
-    .fa-bars{
-        position: absolute;
-    }
+    
 
     nav .fa-solid{
         display: block;
         font-size: 25px;
        }
 
-      
+       .fa-bars{
+        display: flex;
+        flex-direction: row-reverse;
+    }
        
     nav ul{
         background: #ff004f;
