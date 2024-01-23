@@ -450,6 +450,10 @@ nav .fa-solid{
         display: block;
         font-size: 25px;
        }
+
+       .fa-bars{
+        right: 0px;
+      }
        
     nav ul{
         background: #ff004f;
@@ -514,7 +518,10 @@ nav .fa-solid{
         flex-direction: column;
      }
 
-    .contact-left,.contact-right{
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
         flex-basis: 100%;
     }
 
@@ -550,6 +557,10 @@ nav .fa-solid{
       margin-right: 100px;
         border-radius: 100%;
         margin-top: 20px;
+    }
+
+    .fa-bars{
+      right: 0px;
     }
 
     .header-text{
@@ -631,7 +642,10 @@ nav .fa-solid{
         flex-direction: column;
      }
 
-    .contact-left,.contact-right{
+     .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
         flex-basis: 100%;
     }
 
